@@ -50,3 +50,31 @@ elif month = November
 
 Print "Your Astrological sign is....."
 """
+
+day = int(input("Input birthday: "))
+month = input("Input month of birth: ")
+if month == "December":
+	astro_sign = "Sagittarius" if (day < 22) else "Capricorn"
+elif month == "January":
+	astro_sign = "Capricorn" if (day < 20) else "Aquarius"
+elif month == "February":
+	astro_sign = "Aquarius" if (day < 19) else "Pisces"
+elif month == "March":
+	astro_sign = "Pisces" if (day < 21) else "Aries"
+elif month == "April":
+	astro_sign = "Aries" if (day < 20) else "Taurus"
+elif month == "May":
+	astro_sign = "Taurus" if (day < 21) else "Gemini"
+elif month == "June":
+	astro_sign = "Gemini" if (day < 21) else "Cancer"
+elif month == "July":
+	astro_sign = "Cancer" if (day < 23) else "Leo"
+elif month == "August":
+	astro_sign = "Leo" if (day < 23) else "Virgo"
+elif month == "September":
+	astro_sign = 'Virgo' if (day < 23) else "Libra"
+elif month == "October":
+	astro_sign = "Libra" if (day < 23) else "Scorpio"
+elif month == "November":
+	astro_sign = "Scorpio" if (day < 22) else "Sagittarius"
+print("Your Astrological sign is :",astro_sign)
