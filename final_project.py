@@ -18,3 +18,35 @@ If the user is born in September the output will display Virgo if the day is bef
 If the user is born in October the output will display Libra if the day is before 23 else the output will be Scorpio.
 If the user is born in November the output will display Scorpio if the day is before 22 else the output will be Sagittarius. 
 """
+
+"""
+day = input brithday
+month = input month of birth
+
+If month = December
+    "Sagitarius" if day < 22 else "Capricorn"
+elif month = January
+    "Capricorn" if day < 20 else "Aquarius"
+elif month = February
+    "Aquarius" if day < 19 else "Pisces"
+elif month = March
+    "Pisces" if day < 21 else "Aries"
+elif month = April
+    "Aries" if day < 20 else "Taurus"
+elif month = May
+    "Taurus" if day < 21 else "Gemini"
+elif month = June
+    "Gemini" if day < 21 else "Cancer"
+elif month = July
+    "Cancer" if day < 23 else "Leo"
+elif month = August
+    "Leo" if day < 23 else "Virgo"
+elif month = September
+    "Virgo" if day < 23 else "Libra"
+elif month = October
+    "Libra" if day < 23 else "Scorpio"
+elif month = November 
+    "Scorpio" if day < 22 else "Sagittarius"
+
+Print "Your Astrological sign is....."
+"""
